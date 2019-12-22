@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+.long-box {
+    width: 100%;
+    height: 70px;
+    background-color: #fafaed;
+    display: flex;
+    color: darkred;
+    font-family: "Book Antiqua";
+      position: fixed;
+    border-bottom: darkgray solid 1px;
+    box-shadow: 1px 1px 10px #182019;
+ }
+
+.box {
+    width: 150px;
+    height: 40px;
+    background-color: #fafaed;
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    color: white;
+    float: bottom;
+    text-align: center;
+    line-height: 60px;
+}
+.box a:hover {
+    color: seagreen;
+}
+.box-title {
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    line-height: 10px;
+}
+
+#koszyk {
+    width: 20%;
+    height: 100%;
+    background-color: #fafaed;
+    margin-top: 70px;
+    position: fixed;
+    right: 0px;
+    color: darkred;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: inset 2px 2px 15px #182019;
+    font-family: "Book Antiqua";
+}
+#koszyk button {
+    margin-top: 10px;
+}
+
+.card-product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    flex: 3;
+    height: 30px;
+    justify-items: center;
+    color: black;
+}
+
+.card-product-price {
+    float: right;
+    margin-left: 10px;
+    margin-right: 50px;
+    flex: 1;
+    height: 30px;
+    color: darkred;
+    flex-direction: row;
+}
+
+.remove-product {
+    float: right;
+    margin:5px;
+    width: 45px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    width: 79%;
+    margin-top: 70px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #fcfcf4;
+    justify-content: space-between;
+    color:darkred;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: static;
+}
+
+.image-box {
+     width: 300px;
+     height: 400px;
+    border: darkgray solid 1px;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px #182019;
+    margin: 2px;
+ }
+
+.container button {
+    float: right;
+    margin: 15px;
+}
+
+.container p {
+    float: left;
+    margin: 10px;
+}
+
+img {
+    height: 290px;
+    width: 240px;
+    position: static;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: darkgray solid 1px;
+    transition: all 1s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+}
